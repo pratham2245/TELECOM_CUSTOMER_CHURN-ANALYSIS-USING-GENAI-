@@ -1,0 +1,18 @@
+generate  the python code for the following task :  
+##EDA                                                       
+.write a code to read this file in dataframe 
+.write a code to see few line of data                                                      
+.write a python code for changing datatype of column totalcharges and replace blank sapce with "0".
+.write a code for checking is there any null value present in dataset. 
+.write a code to describe the numerical column
+.define function convert with value and apply condition as if value==1,print "yes "else "no". 
+. apply this to column senior citizen
+##VISUALIZATION
+.write a code for count plot for column "churn" with displaying no on them
+.write a code for pie plot for column "churn " with display the percentage
+.write a code for count plot for column "gender " with churn status
+.write a code for count plot for column "senior citizen" with churn status
+.write a code for ploting histogram for column "tenure" along with churn status
+.write a code for count plot for column contract with churn status
+.'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies' the above are the column from table . generate a python code for creating a subplot for them with considering each of them would be countplot.
+.write a code for count plot for column "Payment Method" with churn status.
