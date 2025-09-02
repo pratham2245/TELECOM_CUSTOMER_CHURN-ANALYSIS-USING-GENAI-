@@ -10,25 +10,60 @@ Build predictive models to classify customers as likely to churn or stay.
 
 Provide actionable insights and recommendations to improve customer retention, reduce revenue loss, and enhance business decision-making.
 
-# SUMMARY
-The dataset consists of 7,043 customers with features such as demographics, services subscribed, contract type, billing, and payment methods.
+# Dataset Description
 
-The target variable is Churn (Yes/No). Around 26–27% of customers are churners, showing a class imbalance.
+The dataset used in this project is the Telco Customer Churn dataset, containing information about telecom customers, their services, billing details, and churn status. It has 7,043 rows (customers) and 21 columns (features).
 
-Key churn drivers identified:
+🔑 Key Features
 
-Contract type: Customers on month-to-month contracts churn far more than those on yearly contracts.
+Customer Information
 
-Internet service: Fiber optic users have higher churn compared to DSL.
+customerID – Unique ID for each customer
 
-Additional services (Online Security, Tech Support, Device Protection) reduce churn likelihood.
+gender – Male or Female
 
-Payment method: Customers using Electronic Check show higher churn compared to automatic payments.
+SeniorCitizen – Indicates if the customer is a senior citizen (1 = Yes, 0 = No)
 
-Tenure: Newer customers (low tenure) are more likely to churn.
+Partner – Whether the customer has a partner (Yes/No)
 
-Machine learning models (likely Logistic Regression, Random Forest, or XGBoost in your notebook):
+Dependents – Whether the customer has dependents (Yes/No)
 
-Achieved around 78–82% accuracy, with a good balance of precision and recall.
+Account Information
 
-Feature importance highlighted Contract, Tenure, InternetService, OnlineSecurity, and PaymentMethod as most influential.
+tenure – Number of months the customer has stayed with the company
+
+Contract – Type of contract (Month-to-month, One year, Two year)
+
+PaperlessBilling – Whether the customer uses paperless billing (Yes/No)
+
+PaymentMethod – Payment method (Electronic check, Mailed check, Bank transfer, Credit card)
+
+Services Signed Up
+
+PhoneService – Whether the customer has phone service (Yes/No)
+
+MultipleLines – Whether the customer has multiple lines (Yes/No/No phone service)
+
+InternetService – Type of internet (DSL, Fiber optic, No internet)
+
+OnlineSecurity – Whether the customer has online security (Yes/No/No internet)
+
+OnlineBackup – Whether the customer has online backup (Yes/No/No internet)
+
+DeviceProtection – Whether the customer has device protection (Yes/No/No internet)
+
+TechSupport – Whether the customer has tech support (Yes/No/No internet)
+
+StreamingTV – Whether the customer uses streaming TV (Yes/No/No internet)
+
+StreamingMovies – Whether the customer uses streaming movies (Yes/No/No internet)
+
+Billing Information
+
+MonthlyCharges – Amount charged per month
+
+TotalCharges – Total amount charged to the customer
+
+Target Variable
+
+Churn – Whether the customer left the company (Yes/No)
