@@ -14,6 +14,8 @@
 .write a code for count plot for column "senior citizen" with churn status
 .write a code for ploting histogram for column "tenure" along with churn status
 .write a code for count plot for column contract with churn status
-.'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies' the above are the column from table . generate a python code for creating a subplot for them with considering each of them would be countplot.
-
+.'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+'TechSupport', 'StreamingTV', 'StreamingMovies' the above are the column from table . 
+generate a python code for creating a subplot for them with considering each of them would be countplot.
 .write a code for count plot for column "Payment Method" with churn status.
+
