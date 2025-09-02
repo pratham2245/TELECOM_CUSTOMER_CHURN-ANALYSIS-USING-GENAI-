@@ -163,3 +163,28 @@ generate a python code for creating a subplot for them with considering each of 
 # Overall Insight:
 * Churn is driven primarily by short contracts, higher costs, lack of additional services, and inconvenient payment methods.
 *  Addressing these issues can significantly improve retention.
+
+# RECOMMENDATIONS
+
+* Encourage long-term contracts
+Offer discounts/incentives for customers to switch from month-to-month to annual contracts.
+
+* Improve Fiber Optic service quality
+Since churn is higher among fiber users, investigate service reliability, speed, or pricing issues.
+
+* Bundle value-added services
+Promote Online Security, Tech Support, Device Protection as add-ons to increase stickiness and reduce churn.
+
+* Targeted retention campaigns
+
+* Identify new customers (<6 months tenure) and offer welcome benefits.
+
+* Flag customers with electronic check payments for retention offers (e.g., discounts if they switch to auto-pay).
+
+* Customer support intervention
+Deploy predictive churn scores to proactively reach out to high-risk customers before they cancel.
+
+* Continuous monitoring
+Retrain churn prediction models quarterly with updated data to keep retention strategies relevant.
+
+* DATASET LINK:https://github.com/Ayushi0214  
