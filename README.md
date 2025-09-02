@@ -188,3 +188,9 @@ Deploy predictive churn scores to proactively reach out to high-risk customers b
 Retrain churn prediction models quarterly with updated data to keep retention strategies relevant.
 
 * DATASET LINK:https://github.com/Ayushi0214  
+
+# TECHNOLOGIES USE
+
+ * Python Libraries: pandas, numpy, matplotlib, seaborn.
+
+Tools: Jupyter Notebook,OPENAI as GENERATIVE AI,Quadratic AI
