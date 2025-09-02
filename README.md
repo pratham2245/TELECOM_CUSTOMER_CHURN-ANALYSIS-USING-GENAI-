@@ -193,4 +193,8 @@ Retrain churn prediction models quarterly with updated data to keep retention st
 
  * Python Libraries: pandas, numpy, matplotlib, seaborn.
 
-Tools: Jupyter Notebook,OPENAI as GENERATIVE AI,Quadratic AI
+* Tools: Jupyter Notebook,OPENAI as GENERATIVE AI,Quadratic AI
+
+# CONCLUSION
+
+This project successfully analyzed the Telecom Customer Churn dataset to uncover patterns and drivers of customer attrition. The analysis revealed that contract type, tenure, payment method, internet service type, and value-added services are the most significant factors influencing churn. Customers on month-to-month contracts, with fiber optic internet, paying through electronic checks, and without online security or tech support, are at the highest risk of leaving.
