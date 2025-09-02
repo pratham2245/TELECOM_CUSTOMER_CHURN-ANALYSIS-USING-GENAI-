@@ -69,7 +69,9 @@ b. TotalCharges – Total amount charged to the customer
 a. Churn – Whether the customer left the company (Yes/No)
 
 # Exploratory Data Analysis (EDA) is done by following questions:
-# generate  the python code for the following task :  
+
+ generate  the python code for the following task :  
+ 
 code for uploading data into python dataframe:
 .write a code to read this file in dataframe 
 
@@ -85,7 +87,7 @@ code for uploading data into python dataframe:
 
 . apply this to column senior citizen
 
-# VISUALIZATION
+# FOR VISUALIZATION
 
 .write a code for count plot for column "churn" with displaying no on them
 
@@ -106,3 +108,58 @@ code for uploading data into python dataframe:
 generate a python code for creating a subplot for them with considering each of them would be countplot.
 
 .write a code for count plot for column "Payment Method" with churn status.
+
+
+# Key Insights
+
+1.Churn Rate
+
+* Around 26–27% of customers have churned.
+
+* Indicates a class imbalance problem in the dataset.
+
+2.Customer Tenure
+
+* Customers with low tenure (<12 months) are much more likely to churn.
+
+* Long-term customers (2+ years) show strong loyalty.
+
+3.Contract Type
+
+* Month-to-month contracts have the highest churn rate.
+
+* Yearly and two-year contracts significantly reduce churn.
+
+4.Payment Method
+
+* Customers paying via Electronic Check churn at a much higher rate.
+
+* Automatic payments (Bank Transfer, Credit Card) have lower churn.
+
+5.Internet Service
+
+* Fiber optic users show the highest churn compared to DSL.
+
+* Customers with no internet service churn the least.
+
+6.Value-added Services
+
+* Lack of Online Security and Tech Support strongly correlates with churn.
+
+* Customers subscribed to these add-ons are more likely to stay.
+
+7.Monthly Charges
+
+* High MonthlyCharges (above $70) are associated with more churn.
+
+* Customers paying lower monthly bills tend to remain longer.
+
+8.Demographics
+
+* No strong churn difference between gender categories.
+
+* Senior Citizens are slightly more likely to churn.
+
+# Overall Insight:
+* Churn is driven primarily by short contracts, higher costs, lack of additional services, and inconvenient payment methods.
+*  Addressing these issues can significantly improve retention.
